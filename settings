@@ -1,0 +1,16 @@
+Add the following lines to settings.json in vscode for auto pop up of snippets
+
+{
+"[markdown]": {
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.snippetSuggestions": "inline"
+},
+"editor.fontSize": 24,
+"emmet.includeLanguages": {"markdown": "html"},
+"emmet.triggerExpansionOnTab": true,
+"emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly"
+}
