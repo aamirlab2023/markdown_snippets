@@ -1,4 +1,4 @@
-Add the following lines to settings.json in vscode for auto pop up of snippets
+Add the following lines to settings.json in vscode for auto pop up of snippets (Preferences: Open User Settings (JSON))
 
 {
 "[markdown]": {
