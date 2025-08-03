@@ -1,0 +1,269 @@
+{
+	"Preamble of HTML": {
+		"prefix": "preamble",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"en\">",
+			"<head>",
+			"    <meta charset=\"UTF-8\">",
+			"    <title>$1 - Probability and Statistics</title>",
+			"    <link rel=\"stylesheet\" href=\"../styles/style.css\">",
+			"",
+			"    <!-- Prism.js for syntax highlighting -->",
+			"    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css\">",
+			"    <script src=\"https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js\"></script>",
+			"    <script src=\"https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js\"></script>",
+			"",
+			"    <!-- MathJax for math equations -->",
+			"    <script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script>",
+			"    <script id=\"MathJax-script\" async",
+			"        src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\">",
+			"</script>",
+			"</head>",
+			"<body>",
+			"",
+			"<header>",
+			"    <h1>Probability and Statistics (MATH-365)</h1>",
+			"    <h2>$2</h2>",
+			"    <h2>Instructor: Dr. Aamir Alaud Din</h2>",
+			"    <h2>Date: $3, 2025</h2>",
+			"</header>",
+			"",
+			"",
+			"",
+			"</body>",
+			"</html>"
+		],
+		"description": "Inserts HTML main body"
+	},
+	
+    "Table of Contents": {
+    	"prefix": "contents",
+    	"body": [
+			"<section>",
+			"<h2 class=\"section-title\">Table of Contents</h2>",
+			"<ol><strong>",
+			"    <li>Recap</li>",
+			"    <li>Objectives</li>",
+			"    <li>The Why Section</li>",
+			"    <li>$1</li>",
+			"    <li>$2</li>",
+			"    <li>$3</li>",
+			"    <li>Summary</li>",
+			"    <li>Exercises</li>",
+			"</strong></ol>",
+			"</section>",
+    	],
+    "description": "Inserts table of contents"
+  	},
+
+	"Recap Section": {
+		"prefix": "recap",
+		"body": [
+			"<section>",
+			"<h2 class=\"section-title\">1. Recap</h2>",
+			"<ul>",
+			"    <li>$1</li>",
+			"    <li>$2</li>",
+			"    <li>$3</li>",
+			"    <li>$4</li>",
+			"    <li>$5</li>",
+			"</ul>",
+			"</section>",
+		],
+	"description": "Inserts recap section"
+  	},
+
+	"General Section": {
+		"prefix": "general_section",
+		"body": [
+			"<section>",
+			"<h2 class=\"section-title\">$1</h2>",
+			"</section>",
+		],
+	"description": "Inserts recap section"
+  	},
+
+  	"Objectives Section": {
+		"prefix": "objectives",
+		"body": [
+			"<section>",
+			"<h2 class=\"section-title\">2. Objectives</h2>",
+			"After <span style=\"color: green;\">taking this lecture</span> and <span style=\"color: red;\">studying</span>, you should be able to:",
+			"<ul>",
+			"    <li>$1</li>",
+			"    <li>$2</li>",
+			"    <li>$3</li>",
+			"</ul>",
+			"</section>",
+		],
+	"description": "Inserts objectives section"
+  	},
+
+	"The Why Section": {
+		"prefix": "the_why",
+		"body": [
+			"<section>",
+			"<h2 class=\"section-title\">3. The Why Section</h2>",
+			"<ul>",
+			"    <li>$1</li>",
+			"    <li>$2</li>",
+			"    <li>$3</li>",
+			"    <li>$4</li>",
+			"    <li>$5</li>",
+			"    <li>$6</li>",
+			"    <li>$7</li>",
+			"    <li>$8</li>",
+			"</ul>",
+			"</section>",
+		],
+	"description": "Inserts the why section"
+  	},
+
+	"Summary": {
+		"prefix": "summary",
+		"body": [
+			"<section>",
+			"<h2 class=\"section-title\">$1. Summary</h2>",
+			"<ul>",
+			"    <li>$2</li>",
+			"    <li>$3</li>",
+			"    <li>$4</li>",
+			"    <li>$5</li>",
+			"    <li>$6</li>",
+			"    <li>$7</li>",
+			"    <li>$8</li>",
+			"    <li>$9</li>",
+			"</ul>",
+			"</section>",
+		],
+	"description": "Inserts summary section"
+  	},
+
+	"Exercises": {
+		"prefix": "exercises",
+		"body": [
+			"<section>",
+			"<h2 class=\"section-title\">$1. Exercises</h2>",
+			"<p><strong>Exercise 1</strong>",
+			"    <br>$1",
+			"<p><strong>Exercise 2</strong>",
+			"    <br>$2",
+			"<p><strong>Exercise 3</strong>",
+			"    <br>$3",
+			"</p>",
+			"</section>",
+		],
+	"description": "Inserts exercises section"
+  	},
+
+	"Inline Code": {
+		"prefix": "incode",
+		"body": [
+			"<code>$1</code>",
+		],
+	"description": "Inserts inline code"
+  	},
+
+	"R and Python Language Simple Code": {
+		"prefix": "plain_code",
+		"body": [
+			"<pre><code>$1</code></pre>",
+		],
+	"description": "Inserts r or python code with no syntax highlight"
+  	},
+
+	"R Language Color Code": {
+		"prefix": "r_color",
+		"body": [
+			"<pre><code class=\"language-r\">$1</code></pre>",
+		],
+	"description": "Inserts r code with syntax highlighting"
+  	},
+
+	"Python Language Color Code": {
+		"prefix": "py_color",
+		"body": [
+			"<pre><code class=\"language-python\">$1</code></pre>",
+		],
+	"description": "Inserts python code with syntax highlighting"
+  	},
+
+	"Table Caption": {
+		"prefix": "tab_caption",
+		"body": [
+			"<caption><strong>Table $1.</strong> $2</caption>",
+		],
+	"description": "Inserts table caption"
+  	},
+
+	"Insert Figure": {
+		"prefix": "figure",
+		"body": [
+			"<figure>",
+			"    <img src=\"../images/$1.png\" width=\"1200\" alt=\"$2\">",
+			"    <figcaption><strong>Figure 1.</strong> $3.</figcaption>",
+			"</figure>",
+		],
+	"description": "Inserts figure"
+  	},
+
+	"Insert Hyperlink": {
+		"prefix": "hyperlink",
+		"body": [
+			"<a href=\"https://www.$1\" target=\"_blank\">$2</a>",
+		]
+	},
+
+	"Insert an Example Block": {
+		"prefix": "example",
+		"body": [
+			"<div class=\"problem-box\">",
+			"<strong>Example $1</strong>",
+			"<p>$2</p>",
+			"",
+			"<strong>Solution</strong>",
+			"<p>$3</p>",
+			"</div>",
+		],
+	},
+
+	"Insert Definition Box": {
+		"prefix": "definition",
+		"body": [
+			"<div class=\"definition-box\">",
+    		"    <div class=\"definition-heading\">$1</div>",
+    		"    <div class=\"definition-text\">",
+      		"        $2",
+	    	"    </div>",
+  			"</div>",
+		],
+	},
+
+	"Insert Inline Math": {
+		"prefix": "inmath",
+		"body": [
+			"\\($1\\)",
+		],
+	},
+
+	"Insert Body Math": {
+		"prefix": "bomath",
+		"body": [
+			"\\[",
+			"    $1",
+			"\\]",
+		],
+	},
+
+	"Insert Title of the Lecture": {
+    "prefix": "title",
+    "body": [
+      "<h1 style=\"color: green; text-align: center;\">📈 Probability and Statistics</h1>",
+      "<h1 style=\"color: blue; text-align: center;\">Center and Spread of Data</h1>",
+      "<h1 style=\"color: red; text-align: center;\">Dr. Aamir Alaud Din</h1>",
+      "<h1 style=\"color: green; text-align: center;\">📅 July 30, 2025</h1>"
+    ],
+    "description": "Say Hello"
+  }
+}
