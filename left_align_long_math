@@ -1,0 +1,52 @@
+<style>
+    /* This is the key CSS rule. It ensures the MathJax container takes up the full width and allows for wrapping. */
+    .math-container {
+        max-width: 100%;
+        overflow-x: auto;
+        /* Optional: You can also hide the scrollbar if you only want wrapping */
+        /* overflow-x: hidden; */
+    }
+</style>
+
+<script>
+    window.MathJax = {
+        tex: {
+            tags: 'ams'
+        },
+        options: {
+            fleqn: true,
+            displayAlign: 'left',
+            // This is the correct configuration for wrapping
+            menuSettings: {
+                inTabOrder: false
+            }
+        },
+        chtml: {
+            linebreaks: {
+                automatic: true,
+                width: "container"
+            }
+        },
+        svg: {
+            linebreaks: {
+                automatic: true,
+                width: "container"
+            }
+        }
+    };
+</script>
+
+<style>
+    mjx-container[jax="CHTML"][display="true"] {
+        text-align: left !important;
+    }
+</style>
+
+<div class="math-container">
+    \[
+    \begin{aligned}
+    (a+b)^n &= \sum_{k=0}^n \binom{n}{k} a^{n-k}b^k = \binom{n}{0}a^n b^0 + \binom{n}{1}a^{n-1}b^1 + \binom{n}{2}a^{n-2}b^2 + \dots + \binom{n}{n}a^0 b^n \\
+    &= a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z
+    \end{aligned}
+    \]
+</div>
